@@ -25,6 +25,10 @@ std_price = df['price'].std()
 outliers = df[np.abs(df['price'] - mean_price) > (3 * std_price)]
 print(f"Number of outliers detected: {len(outliers)}")
 
+Z_Score = (df["price"] - df["price"].mean()) / df["price"].std()
+outliers = df[(Z_Score > 3) | (Z_Score < -3)]
+print(f"Number of outliers detected: {len(outliers)}")
+
 # Large houses and prices lower than the city average
 lucky_houses = df[(df["price"] < df["price"].mean()) & (df["house_size_cat"] == "Large")]
 
@@ -66,3 +70,12 @@ m_houses = df[(df["price"] < df["price"].mean()) & (df["renovated"] == 1) & (df[
 # sns.violinplot(data=df, x="bedrooms", y="price", inner="quartile")
 # plt.title("Price distribution based on the number of bedrooms")
 # plt.show()
+
+# g = sns.FacetGrid(df, col="renovated", height=5)
+# g.map_dataframe(sns.histplot, x="price", hue="waterfront", kde=True)
+# g.add_legend()
+# plt.show()
+
+
+# --- Final storage ---
+df.to_csv("King_County_Cleaned.csv", index=False)
