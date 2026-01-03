@@ -4,7 +4,8 @@
 ### Exercise 1:
 I performed data cleaning (dropping Cabin/Ticket, filling Age with mean) and engineered new features like FamilySize. I used Matplotlib and recently started learning Seaborn to visualize passenger distributions and survival patterns.
 ### Exercise 2:
-Real Estate Market Data Analysis In this project, I performed a deep dive into house sales data using Pandas for feature engineering (age calculation, size binning) and NumPy for outlier detection. I used Seaborn to visualize price densities and correlations, identifying "lucky" deals and the impact of renovations on market value. Note: I'm still getting the hang of Seaborn, but I've made significant progress today!
+Real Estate Market Data Analysis In this project, I conducted a deep dive into home sales data using Pandas for feature engineering (calculating age, size composition) and NumPy for outlier detection. I used Seaborn to visualize price density and correlations, identify "lucky" deals, and the impact of renovations on market value. Note: I'm still learning Seaborn, but I made significant progress today!
+
 -----------
 
 # گزارش روز اول:
