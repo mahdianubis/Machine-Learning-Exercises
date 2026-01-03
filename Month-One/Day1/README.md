@@ -1,25 +1,16 @@
 # Day 01 Report:
 * Topic: Introduction to Seaborn.
 # day 1
-* Titanic Data Analysis & Visualization In my first practice, I worked with the Titanic dataset. Here’s a summary of my workflow:
-### Data Cleaning:
-* Dropped Cabin and Ticket columns as they were unnecessary for this analysis.
-* Handled missing values in the Age column by filling them with the Mean.
-* Removed the single row with a missing Fare value, as it had no significant impact on the overall data.
-### Feature Engineering: Created new features like FamilySize and Legal_Age.
-### Visualization:
-* Used Matplotlib to analyze boarding locations, finding that the majority of passengers embarked from "Southampton (S)".
+### Exercise 1:
+I performed data cleaning (dropping Cabin/Ticket, filling Age with mean) and engineered new features like FamilySize. I used Matplotlib and recently started learning Seaborn to visualize passenger distributions and survival patterns.
+### Exercise 2:
+Real Estate Market Data Analysis In this project, I performed a deep dive into house sales data using Pandas for feature engineering (age calculation, size binning) and NumPy for outlier detection. I used Seaborn to visualize price densities and correlations, identifying "lucky" deals and the impact of renovations on market value. Note: I'm still getting the hang of Seaborn, but I've made significant progress today!
 -----------
 
 # گزارش روز اول:
 * موضوع: شروع کار با Seaborn
 # روز اول
-* تحلیل و تصویرسازی داده‌های تایتانیک در اولین تمرین، روی دیتاست تایتانیک کار کردم. خلاصه کارهایی که انجام دادم:
-### پاک‌سازی داده‌ها:
-* ستون‌های Cabin و Ticket رو به دلیل عدم نیاز در این تحلیل حذف کردم.
-* مقادیر گم‌شده در ستون Age (سن) رو با میانگین پر کردم.
-* تک‌ردیفی که مقدار Fare (قیمت بلیط) نداشت رو حذف کردم، چون تأثیر خاصی روی نتیجه نهایی نداشت.
-* مهندسی ویژگی‌ها: ساخت ستون‌های جدید مثل FamilySize و Legal_Age.
-### تصویرسازی:
-* با استفاده از Matplotlib موقعیت سوار شدن مسافران رو تحلیل کردم که نشان داد اکثر مسافران از منطقه "S" سوار شده بودند.
-
+# تمرین 1:
+پاک‌سازی داده‌ها (حذف ستون‌های غیرضروری و پر کردن سن با میانگین) و ساخت ویژگی‌های جدید مثل «اندازه خانواده» را انجام دادم. از Matplotlib و به تازگی از Seaborn برای تصویرسازی توزیع مسافران و الگوهای بقا استفاده کردم.
+# تمرین 2:
+تحلیل داده‌های بازار املاک در این پروژه، تحلیل عمیقی روی داده‌های فروش مسکن انجام دادم؛ از Pandas برای مهندسی ویژگی‌ها (محاسبه عمر بنا و دسته‌بندی متراژ) و از NumPy برای شناسایی داده‌های پرت (Outliers) استفاده کردم. با کمک Seaborn، تراکم قیمت‌ها و هم‌بستگی متغیرها را ترسیم کردم تا خانه‌های زیر قیمت و تأثیر بازسازی بر ارزش ملک را شناسایی کنم. توضیح: هنوز به طور کامل بر Seaborn مسلط نیستم، اما نسبت به شروع روز پیشرفت خوبی داشتم!
