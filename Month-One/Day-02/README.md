@@ -1,7 +1,7 @@
 # day 2
 ### Review Exercise: 
 Flight Delay Analysis Conducted a deep dive into airport operations data. Key tasks included Z-Score outlier detection to find "bad luck" flights, seasonal trend analysis via monthly delays, and distribution study of weather-related delays across major carriers using Seaborn.
-u
+
 ------
 # روز 2
 ### تمرین دوره:
