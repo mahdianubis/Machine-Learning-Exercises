@@ -1,6 +1,6 @@
 Day 06:
-I mastered handling messy real-world Spotify data by fixing encoding issues and numeric formatting. I also implemented Confusion Matrix analysis to identify model bias and used balanced class weights to improve predictions for minority classes.
+I mastered advanced data cleaning techniques, including regex for numeric formatting and encoding fixes. I also moved beyond simple accuracy by using Confusion Matrices to diagnose model bias and implementing balanced class weights to handle imbalanced real-world datasets effectively.
 
 -------
 روز ششم:
-یاد گرفتم چطور با داده‌های واقعی و کثیف اسپاتیفای بجنگم؛ از حل مشکل انکودینگ و حذف کاما در اعداد گرفته تا کالبدشکافی مدل با ماتریس اغتشاش (Confusion Matrix) برای رفع سوگیری مدل نسبت به کلاس اکثریت.
+مهارت‌های پیشرفته‌ای در پاکسازی داده‌های پیچیده (مانند حذف کاراکترهای مزاحم و حل مشکلات انکودینگ) کسب کردم. همچنین یاد گرفتم که با استفاده از ماتریس اغتشاش و تنظیم وزن کلاس‌ها، مدل‌هایی بسازم که فراتر از دقت ظاهری، قضاوتی عادلانه و دقیق روی تمام دسته‌ها داشته باشند.
